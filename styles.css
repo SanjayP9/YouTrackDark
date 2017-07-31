@@ -1,17 +1,44 @@
 
-tbody, .yt-agile-table__row__cell.yt-agile-table__row__cell_head {
+tbody, .yt-agile-table__row__cell.yt-agile-table__row__cell_head, .fsi__sidebar__bottom {
     background-color: #3e3e3e !important;
+    border-right: 1px solid #1466c6 !important;
 }
 
-.ring-popup  {
+textarea {
+    border-bottom: 2px solid #1466c6 !important;
+    border-top: 2px solid #1466c6 !important;
+    border-right: 2px solid #1466c6 !important;
+    border-left: 2px solid #1466c6 !important;
+    background-color: #3e3e3e !important;
+    color: white !important;
+}
+
+.yt-agile-table__row__cell.yt-agile-table__row__cell_head {
+    border-bottom: 1px solid #1466c6 !important;
+    border-top: 1px solid #1466c6 !important;
+}
+
+.yt-bottom-toolbar {
+    border-top: 1px solid #1466c6 !important;
+}
+
+td[ng-switch*="agileBoardCtrl.agile.swimlaneSettings"] {
+    border-bottom: 1px solid #1466c6 !important;
+}
+
+tbody[ng-if*='agileBoard'] td {
+    border-right: 1px solid #1466c6 !important;
+}
+
+.ring-popup {
     background: #3e3e3e !important;
 }
 
 .ring-list__item.ring-list__item_action:hover {
-    color: blue !important;
+    background: #455a79 !important;
 }
 
-.ring-list__item__label, .yt-issue-custom-field__field-value__label {
+.ring-list__item__label, .yt-issue-custom-field__field-value__label, .ring-select__message {
     color: white !important;
 }
 
@@ -40,7 +67,7 @@ thead .yt-agile-table__row__toggler span, .yt-issue-body > div {
 }
 
 .yt-issue-key-value-list tr:hover, .yt-gutter-1 .yt-issue:hover {
-    background: #767579 !important;
+    background: #455a79 !important;
 }
 
 .ring-tabs__tabs .ring-tabs__btn.active {
@@ -48,7 +75,7 @@ thead .yt-agile-table__row__toggler span, .yt-issue-body > div {
 }
 
 .yt-issue-fields-panel {
-    background: #364056 !important;
+    background: #3e3e3e !important;
 }
 
 .yt-agile-card__user {
@@ -57,16 +84,16 @@ thead .yt-agile-table__row__toggler span, .yt-issue-body > div {
 
 .yt-agile-card {
     background-color: #313131 !important;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 5s ease-in-out;
+    -moz-transition: opacity 5s ease-in-out;
+    -webkit-transition: opacity 5s ease-in-out;
 }
 
 .yt-agile-card:hover {
     background-color: #384790 !important;
-    transition: opacity .05s ease-in-out;
-    -moz-transition: opacity .05s ease-in-out;
-    -webkit-transition: opacity .05s ease-in-out;
+    transition: opacity 5s ease-in-out;
+    -moz-transition: opacity 5s ease-in-out;
+    -webkit-transition: opacity 5s ease-in-out;
 }
 
 .yt-issue__content.yt-vgutter-1 {
@@ -74,7 +101,7 @@ thead .yt-agile-table__row__toggler span, .yt-issue-body > div {
 }
 
 .yt-overlay {
-    background-color: #313131 !important;
+    background-color: #3e3e3e !important;
 }
 
 .ring-island {
