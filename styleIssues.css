@@ -1,22 +1,21 @@
-
-tbody, .yt-agile-table__row__cell.yt-agile-table__row__cell_head {
+body, .ring-header-react {
     background-color: #3e3e3e !important;
 }
 
-.ring-popup {
+.wiki-tbl > tbody > tr > .wiki-tbl-td {
+    color: white;
+}
+
+.fsi-properties {
     background: #3e3e3e !important;
 }
 
-.ring-list__item.ring-list__item_action:hover {
-    color: blue !important;
+.fsi-properties td {
+    border-bottom: 1px solid #1466c6 !important;
 }
 
-.ring-list__item__label, .yt-issue-custom-field__field-value__label {
-    color: white !important;
-}
-
-.ring-link {
-    color: #1887e7 !important;
+tbody, .yt-agile-table__row__cell.yt-agile-table__row__cell_head {
+    background-color: #3e3e3e !important;
 }
 
 .yt-footer {
