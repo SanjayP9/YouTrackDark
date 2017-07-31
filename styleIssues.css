@@ -2,7 +2,7 @@ body, .ring-header-react {
     background-color: #3e3e3e !important;
 }
 
-.wiki-tbl > tbody > tr > .wiki-tbl-td {
+.wiki-tbl > tbody > tr >  .wiki-tbl-td {
     color: white;
 }
 
