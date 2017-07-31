@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "YoutrackDark",
+  "version": "4.20",
+  "description": "",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://youtrack.engagepeople.com/agiles/*"]
+  },
+    {
+      "css":["stylesIssues.css"]
+    }
+  ]
+
+}

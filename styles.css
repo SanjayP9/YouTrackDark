@@ -1,0 +1,227 @@
+
+tbody, .yt-agile-table__row__cell.yt-agile-table__row__cell_head {
+    background-color: #3e3e3e !important;
+}
+
+.yt-footer {
+    background: #303030 !important;
+}
+
+.yt-dark-grey-text {
+    color: white !important;
+}
+
+.yt-footer span {
+    color: white !important;
+}
+
+thead .yt-agile-table__row__toggler span, .yt-issue-body > div {
+    color: #ffffff !important;
+}
+
+.yt-issue-body__summary.yt-issue-body__summary-common, .yt-issue-body__description.yt-issue-body__description-common {
+    color: white !important;
+}
+
+.yt-issue-key-value-list tr:hover, .yt-gutter-1 .yt-issue:hover {
+    background: #767579 !important;
+}
+
+.ring-tabs__tabs .ring-tabs__btn.active {
+    color: #ff7c19 !important;
+}
+
+.yt-issue-fields-panel {
+    background: #364056 !important;
+}
+
+.yt-agile-card__user {
+    background: white !important;
+}
+
+.yt-agile-card {
+    background-color: #313131 !important;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+.yt-agile-card:hover {
+    background-color: #384790 !important;
+    transition: opacity .05s ease-in-out;
+    -moz-transition: opacity .05s ease-in-out;
+    -webkit-transition: opacity .05s ease-in-out;
+}
+
+.yt-issue__content.yt-vgutter-1 {
+    color: #888 !important;
+}
+
+.yt-overlay {
+    background-color: #313131 !important;
+}
+
+.ring-island {
+    background-color: #232e34 !important;
+}
+
+.yt-agile-card__description, .yt-agile-card__header.yt-agile-card-enumeration {
+    color: #ff1510;
+}
+
+.yt-agile-card__summary, .yt-drag-agile-card__summary {
+    color: white !important;
+}
+
+.yt-agile-table__row__estimation {
+    background: #384790 !important;
+}
+
+.yt-agile-board__toolbar__slider-wrapper {
+    background: #303030 !important;
+}
+
+.yt-bottom-toolbar, .yt-sticky-panel__container.yt-sticky-panel__container_pinned.yt-agile-board__toolbar_sticky {
+    background: #303030 !important;
+}
+
+/* Other Stuff */
+body, .darcula .sb-row, .darcula .sb-row, .darcula .sb-board-title {
+    background: #303030 !important;
+    color: #eeeeee !important;
+}
+
+.yt-header__create-btn > .ring-menu__item__i {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ef9331), to(#e9701d)) !important;
+}
+
+.ring-menu, .jt-menu-button, .ring-dropdown__item, .suggest, .inputWrapper > input {
+    background: #303030 !important;
+    color: #eeeeee;
+}
+
+.darcula .sb-task-estimate {
+    background-color: #595959 !important;
+    color: white !important;
+}
+
+.search-center, .search-west, .search-panel {
+    background: #303030 !important;
+}
+
+.selectProject .arrow {
+url("/_classpath/smartui/img/default/context-arrow-h-7d62093c.png") no-repeat 8 px 12 px !important;
+}
+
+.selectProject {
+    box-shadow: #303030 0px 1px 0px 0px !important;
+}
+
+.selectProject .inputWrapper {
+    padding-right: 0px;
+}
+
+.suggest ul li.current {
+    background-color: #595959;
+}
+
+.ring-dropdown__i, .comboboxList {
+    background: #303030 !important;
+}
+
+.ring-menu__item__i {
+    background: #303030 !important;
+    color: #eeeeee !important;
+}
+
+.sb-sprint-progress, .sb-sprint-version {
+    color: #eeeeee !important;
+}
+
+.sb-task-summary, .darcula .sb-task-in {
+    background: #424242 !important;
+    color: #eeeeee !important;
+}
+
+.darcula .toolbar-unpined {
+    background: #303030 !important;
+    color: #eeeeee !important;
+}
+
+.darcula .sb-column-issue-list-link {
+    color: #eeeeee !important;
+}
+
+.darcula .sb-column-issue-list-link span {
+    color: #eeeeee !important;
+}
+
+.darcula .sb-board-name, .sb-column-titles {
+    background: #303030 !important;
+    color: #eeeeee !important;
+}
+
+.sb-c16, .c16 {
+    background-color: #8CB9A4 !important;
+    color: #eeeeee !important;
+    background-image: none;
+}
+
+.sb-c17, .c17 {
+    background-color: #34b67a !important;
+    color: #eeeeee !important;
+}
+
+.sb-c18, .c18 {
+    background-color: #FF7A7A !important;
+    color: #eeeeee !important;
+}
+
+.sb-c19, .c19 {
+    background-color: #B84949 !important;
+    color: #eeeeee !important;
+}
+
+.sb-task-estimate {
+    color: #eeeeee !important;
+}
+
+.attribute.c19, .attribute-color-mark.c19, .Enumerations .c19, .colorsTable .c19, .jt-prop-title.c19, .sb-task-summary.c19 {
+    background-color: #B84949 !important;
+    color: #eeeeee !important;
+}
+
+.search-panel-input > input {
+    background: #595959 !important;
+    color: #eeeeee !important;
+}
+
+.search-center .panel {
+    border-color: #303030 !important;
+    border-bottom-color: #303030 !important;
+    box-shadow: #303030 1px 2px 2px -2px inset, #303030 0px 1px 0px 0px !important;
+}
+
+body, .ui-widget {
+    font-family: "Segoe UI", "Helvetica Neue", arial, sans-serif;
+}
+
+.sb-issue-edit-dlg-content {
+    background: #595959 !important;
+    color: #eeeeee !important;
+}
+
+.jt-dialog, .jt-bl-wrapper {
+    background: #595959 !important;
+    color: #eeeeee !important;
+}
+
+.sb-issue-edit-description, .sb-issue-edit-summary, .sb-jeditable input, .sb-issue-edit-south, .sb-issue-edit-addcomment-input, .sb-issue-edit__fields-container td {
+    color: #eeeeee !important;
+    background: #595959 !important;
+}
+
+#editIssueDialog a, a:visited {
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
