@@ -6,8 +6,21 @@
     color: #1466c6 !important;
 }
 
-.wiki-tbl > tbody > tr > .wiki-tbl-td {
-    color: white;
+.wiki-tbl > tbody > tr > .wiki-tbl-td, .jt-panel-active, .ring-footer {
+    color: white !important;
+}
+
+.wiki.text {
+    color: #b4b3b7 !important;
+}
+
+textarea {
+    border-bottom: 2px solid #1466c6 !important;
+    border-top: 2px solid #1466c6 !important;
+    border-right: 2px solid #1466c6 !important;
+    border-left: 2px solid #1466c6 !important;
+    background-color: #3e3e3e !important;
+    color: white !important;
 }
 
 tbody {

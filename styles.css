@@ -13,6 +13,10 @@ textarea {
     color: white !important;
 }
 
+.yt-issue-view__issue-id.yt-action-link.js-issue-id:not(:hover), .ring-popup.ring-tooltip-ng {
+    color: white !important;
+}
+
 .yt-agile-table__row__cell.yt-agile-table__row__cell_head {
     border-bottom: 1px solid #1466c6 !important;
     border-top: 1px solid #1466c6 !important;
