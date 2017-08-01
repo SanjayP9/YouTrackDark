@@ -4,7 +4,7 @@ tbody, .yt-agile-table__row__cell.yt-agile-table__row__cell_head, .fsi__sidebar_
     border-right: 1px solid #1466c6 !important;
 }
 
-textarea {
+textarea, input[ng-model="ytAgileBoardInlineEstimationCtrl.value"], input[ng-model="agileIssueCreateDialogCtrl.issue.summary"] {
     border-bottom: 2px solid #1466c6 !important;
     border-top: 2px solid #1466c6 !important;
     border-right: 2px solid #1466c6 !important;

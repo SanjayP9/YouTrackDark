@@ -17,13 +17,24 @@
     },
     {
       "css": [
-        "styleIssues.css"
+        "styleIssue.css"
       ],
       "js": [
         "content.js"
       ],
       "matches": [
         "https://youtrack.engagepeople.com/issue/*"
+      ]
+    },
+    {
+      "css": [
+        "styleIssues.css"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://youtrack.engagepeople.com/issues/*"
       ]
     }
   ]

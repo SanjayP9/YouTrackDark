@@ -1,99 +1,34 @@
-.ring-header-react, body, html, .fsi-top-toolbar.toolbar-unpined, .fsi-layout.container.container_width.container_padding, .toolbar_fsi.toolbar_fsi_small-id.toolbar-unpined {
+body, html, .issueContainer, .jt-menu, .toolbar-unpined {
     background: #3e3e3e !important;
 }
 
-.issueId, .combobox.bind {
+.issueContainer, .ring-menu__item__i:not(:hover), .jt-menu-button.ring-btn.view-mode, .jt-menu > li > a, .ring-footer {
+    color: white !important;
+}
+
+.issueContainer:hover, .sidebar-toggler:hover, .vert-list-item:hover {
+    background: #455a79 !important;
+}
+
+.jt-menu li:hover {
+    background-color: #124c90 !important;
+}
+
+.highlightedWord {
+    background: #00b000 !important;
+}
+
+.issue-summary, .issueId.issueIdAnchor {
     color: #1466c6 !important;
 }
 
-.wiki-tbl > tbody > tr > .wiki-tbl-td, .jt-panel-active, .ring-footer {
-    color: white !important;
-}
-
-.wiki.text {
-    color: #b4b3b7 !important;
-}
-
-textarea {
-    border-bottom: 2px solid #1466c6 !important;
-    border-top: 2px solid #1466c6 !important;
-    border-right: 2px solid #1466c6 !important;
-    border-left: 2px solid #1466c6 !important;
-    background-color: #3e3e3e !important;
-    color: white !important;
-}
-
-tbody {
-    color: white !important;
-    background-color: #3e3e3e !important;
-}
-
-.issues-nav-info {
+.issueContainer, .ring-btn {
     border-bottom: 1px solid #1466c6 !important;
     border-top: 1px solid #1466c6 !important;
     border-right: 1px solid #1466c6 !important;
     border-left: 1px solid #1466c6 !important;
-    color: white !important;
 }
 
-#id_l\.I\.ic\.icr\.summaryToolbar {
-    color: white !important;
-}
-
-.fsi-properties, .fsi__sidebar__bottom, .content.content_fsi {
-    background: #3e3e3e !important;
-    color: white !important;
-}
-
-.yt-action:not(:hover) {
-    color: white !important;
-}
-
-.jt-tabpanel-body {
-    color: white !important;
-    background-color: #3e3e3e !important;
-}
-
-.fsi-properties td {
-    border-bottom: 1px solid #1466c6 !important;
-}
-
-.yt-agile-table__row__cell.yt-agile-table__row__cell_head {
-    background-color: #3e3e3e !important;
-}
-
-.yt-footer {
-    background: #3e3e3e !important;
-}
-
-.yt-dark-grey-text {
-    color: white !important;
-}
-
-.yt-footer span {
-    color: white !important;
-}
-
-thead .yt-agile-table__row__toggler span, .yt-issue-body > div {
-    color: #ffffff !important;
-}
-
-.yt-issue-body__summary.yt-issue-body__summary-common, .yt-issue-body__description.yt-issue-body__description-common {
-    color: white !important;
-}
-
-.yt-issue-key-value-list tr:hover, .yt-gutter-1 .yt-issue:hover {
-    background: #767579 !important;
-}
-
-.ring-tabs__tabs .ring-tabs__btn.active {
-    color: #ff7c19 !important;
-}
-
-.yt-issue-fields-panel {
-    background: #364056 !important;
-}
-
-.yt-agile-card__user {
-    background: white !important;
+.sidebar-toggler {
+    border-right: 1px solid #1466c6 !important;
 }
