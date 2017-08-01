@@ -4,6 +4,10 @@ tbody, .yt-agile-table__row__cell.yt-agile-table__row__cell_head, .fsi__sidebar_
     border-right: 1px solid #1466c6 !important;
 }
 
+.yt-issue-comment {
+    background-color: #3e3e3e !important;
+}
+
 textarea, input[ng-model="ytAgileBoardInlineEstimationCtrl.value"], input[ng-model="agileIssueCreateDialogCtrl.issue.summary"] {
     border-bottom: 2px solid #1466c6 !important;
     border-top: 2px solid #1466c6 !important;
@@ -38,11 +42,11 @@ tbody[ng-if*='agileBoard'] td {
     background: #3e3e3e !important;
 }
 
-.ring-list__item.ring-list__item_action:hover {
+.ring-list__item.ring-list__item_action:hover, ring-list__item_active {
     background: #455a79 !important;
 }
 
-.ring-list__item__label, .yt-issue-custom-field__field-value__label, .ring-select__message {
+.ring-list__item__label, .yt-issue-custom-field__field-value__label, .ring-select__message, text {
     color: white !important;
 }
 
