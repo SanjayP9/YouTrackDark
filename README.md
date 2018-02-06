@@ -1,2 +1,2 @@
 # YouTrackDark
-Just a dark theme for YouTrack
+A dark theme for YouTrack as a Chrome Extension
